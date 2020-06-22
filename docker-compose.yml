@@ -12,7 +12,7 @@ services:
     ports:
       - "2181:2181"
   kafka:
-    build:
+    build: .
     networks:
       - kafka-local
     ports:
